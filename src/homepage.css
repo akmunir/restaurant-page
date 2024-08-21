@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "roboto";
+}
+.content-wrapper {
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content {
+    background-image: url("../assets/homepageImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 55%;
+    min-height: 70%;
+    color: #f5f5f5;
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.75);
+}
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+ h1 {
+    position: absolute;
+    left: 5%;
+    top: -5%;
+    font-size: 3cqi;
+    color: white;
+    border-bottom: 1px solid #011C27;
+ }
+
+ h1 span {
+    padding-top: 5%;
+ }
+
+.hook, .testimonial, .hours, .location {
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.testimonial {
+    text-align: center;
+    font-size: 6ch;
+}
+
+nav {
+    position: -webkit-sticky;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #03254E;
+}
+
+nav button {
+    padding: 10px 20px;
+    margin: 25px;
+    margin-bottom: 0;
+    color: #FECEE9;
+    background-color: #03254E;
+    box-shadow: none;
+    
+    border: none;
+    font-size: 1.5rem;
+    
+}
+
+nav button:hover {
+   cursor: pointer;
+   box-shadow: 0px 0px 7px -1px #094185;
+}
+.hours {
+    line-height: 120px;
+}
+

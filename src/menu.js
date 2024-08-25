@@ -1,4 +1,3 @@
-
 export function generateMenu() {
     const pageContent = [];
     let itemAmount = 0;

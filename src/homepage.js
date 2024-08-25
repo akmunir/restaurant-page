@@ -1,6 +1,5 @@
 export function generateHomePage() {
     const content = document.querySelector("#content");
-    console.log(content);
     const pageContent = [];
     const hook = document.createElement("p");
     hook.classList.add("hook");

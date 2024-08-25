@@ -4,7 +4,6 @@ import "./menu.css";
 import { generateMenu } from "./menu.js";
 import { generateAbout } from "./about.js";
 
-console.log("hello?");
 generateHomePage();
 
 const content = document.querySelector("#content");
